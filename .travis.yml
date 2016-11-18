@@ -1,0 +1,6 @@
+script:
+  - echo hello world
+
+deploy:
+  provider: script
+  script: make deploy
